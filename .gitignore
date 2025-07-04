@@ -1,0 +1,25 @@
+# Exclude Python environment files
+__pycache__/
+*.pyc
+*.pyd
+.Python
+.venv/
+env/
+venv/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# Exclude YOLOv5 specific large files or sensitive data
+yolov5/runs/
+yolov5/weights/*.pt
+yolov5/data/*.mp4
+*.mp4
+*.avi
+*.mov
+*.json
+*service-account-key.json
+credentials.json
+
+# Jupyter/Colab Notebook specific exclusions
+.ipynb_checkpoints/
